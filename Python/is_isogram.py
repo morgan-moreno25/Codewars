@@ -14,7 +14,7 @@ Examples:
 import unittest
 
 
-def is_isogram(string: str):
+def is_isogram(string: str) -> bool:
     letters = []
 
     if string == '':
