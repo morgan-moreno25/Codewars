@@ -1,4 +1,4 @@
-'''
+"""
 Instructions from Codewars: https://www.codewars.com/kata/5390bac347d09b7da40006f6/train/python
 
 Jaden Smith, the son of Will Smith, is the star of films such as The Karate Kid (2010) and After Earth (2013). Jaden is
@@ -12,11 +12,12 @@ Smith, but they are not capitalized in the same way he originally typed them.
 Example:
     Not Jaden-Cased: "How can mirrors be real if our eyes aren't real"
     Jaden-Cased: "How Can Mirrors Be Real If Our Eyes Aren't Real"
-'''
+"""
 
 import unittest
 
-def to_jaden_case(string:str) -> str:
+
+def to_jaden_case(string: str) -> str:
     words = string.split(' ')
 
     for x in range(0, len(words)):
